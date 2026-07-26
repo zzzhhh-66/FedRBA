@@ -21,6 +21,18 @@ PR-AUC, or every fixed operating point.
 > Dataset files, Kaggle credentials, model checkpoints, and cluster logs are
 > intentionally excluded.
 
+## FedRBA Framework
+
+The overall workflow of the proposed FedRBA framework is illustrated below.
+
+<p align="center">
+  <img src="docs/flowchart.png" alt="FedRBA workflow" width="950">
+</p>
+
+<p align="center">
+  <em>Overall workflow of the proposed FedRBA framework.</em>
+</p>
+
 ## Method
 
 FedRBA combines three mechanisms:
