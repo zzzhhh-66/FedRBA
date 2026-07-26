@@ -1,0 +1,93 @@
+[
+  {
+    "source_key": "main",
+    "snapshot_file": "artifacts/tables/main.csv",
+    "sha256": "20919ee8be11552f179a853e8ff53008867bdb8b1be67ea0dd1740615099a1a7",
+    "rows": 30,
+    "columns": 24
+  },
+  {
+    "source_key": "main_credit",
+    "snapshot_file": "artifacts/tables/main_credit.csv",
+    "sha256": "f85a94f27b9ae9ca689f2abf24ce2c856e9d7c4513c271f3ffee997450920ace",
+    "rows": 15,
+    "columns": 26
+  },
+  {
+    "source_key": "main_fashion",
+    "snapshot_file": "artifacts/tables/main_fashion.csv",
+    "sha256": "4fb45c7dee48204eb73a27b7ba2c8b5866d38f7c0df4fb13de8cbe15fb4ba27a",
+    "rows": 15,
+    "columns": 23
+  },
+  {
+    "source_key": "op_per_run",
+    "snapshot_file": "artifacts/tables/op_per_run.csv",
+    "sha256": "5940a22f141d93236cd89358096e10287b454f9f840b4147f07b222f7f957ca1",
+    "rows": 45,
+    "columns": 27
+  },
+  {
+    "source_key": "op",
+    "snapshot_file": "artifacts/tables/op.csv",
+    "sha256": "465040d4450aa920d8e0cefe98f7406791229389bba6a52ee82e5506a64d9f46",
+    "rows": 15,
+    "columns": 30
+  },
+  {
+    "source_key": "fixed_fpr",
+    "snapshot_file": "artifacts/tables/fixed_fpr.csv",
+    "sha256": "e3c2feabf95e0b9e1a4d336c8b2c5359474ec67a5664de19476291cd9cc57b3c",
+    "rows": 45,
+    "columns": 13
+  },
+  {
+    "source_key": "fixed_recall",
+    "snapshot_file": "artifacts/tables/fixed_recall.csv",
+    "sha256": "d03d10a27ac48fe28c44820da155ea6364c9f2a221f1d1ba6e3c6cc885d1236e",
+    "rows": 45,
+    "columns": 13
+  },
+  {
+    "source_key": "ablation",
+    "snapshot_file": "artifacts/tables/ablation.csv",
+    "sha256": "ce8fb04f61bece6ef97499a93bd166fe6935a656fa19c30d7ae4f55692068dd5",
+    "rows": 8,
+    "columns": 22
+  },
+  {
+    "source_key": "ablation_effects",
+    "snapshot_file": "artifacts/tables/ablation_effects.csv",
+    "sha256": "a72bcc957efca4f8907ce20dd3d9be34ed2cc28f6c48b44576d8dd5c24bd46ad",
+    "rows": 6,
+    "columns": 18
+  },
+  {
+    "source_key": "quantity",
+    "snapshot_file": "artifacts/tables/quantity.csv",
+    "sha256": "83155f00ffa64cdea42cfbcfc5cb9e2a6056921a493130ea08508e6eb22eaa1e",
+    "rows": 5,
+    "columns": 27
+  },
+  {
+    "source_key": "quantity_partition",
+    "snapshot_file": "artifacts/tables/quantity_partition.csv",
+    "sha256": "1e953add8e2c12842c02af92fce71a798c316a641da6fb0cb2cb4d9d1ad1e408",
+    "rows": 2,
+    "columns": 5
+  },
+  {
+    "source_key": "quantity_audit",
+    "snapshot_file": "artifacts/audits/quantity_audit.json",
+    "sha256": "f62de41254dbbfd558646ee08a0aab6338afb25eea38c8acf9d89957243f4fe7",
+    "rows": null,
+    "columns": null
+  },
+  {
+    "source_key": "curve_audit",
+    "snapshot_file": "artifacts/audits/curve_audit.json",
+    "sha256": "df805fdd36116fe8411cb818de433ec00db7c82f9a12f6e28d8c890b511c8561",
+    "rows": null,
+    "columns": null
+  }
+]

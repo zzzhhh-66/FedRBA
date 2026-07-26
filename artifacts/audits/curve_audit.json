@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "archive_sha256": "f2b27a5a547449d830e67b63152968e0eafb5830406cd2d04155e6301ff5ca56",
+  "runs_validated": 90,
+  "files_validated": 270,
+  "scenario_count": 6,
+  "method_count": 5,
+  "seed_count": 3,
+  "fashion_rounds": 100,
+  "credit_rounds": 150,
+  "final_json_max_abs_error": 1.1102230246251565e-16,
+  "aggregate_reconciliation_max_abs_error": 4.967837252678464e-11,
+  "curve_smoothing_for_visualization_only": "Centered moving average, window=5; all reported metrics use unsmoothed values.",
+  "fedrba_last20_temporal_std_mean": 0.21423681839265032,
+  "fedrba_last20_collapse_rate_mean": 0.5333333333333333
+}

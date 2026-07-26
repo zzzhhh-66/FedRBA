@@ -1,0 +1,72 @@
+experiment:
+  name: default_credit_fedrba
+  seed: 42
+  output_dir: outputs
+
+dataset:
+  name: default_credit
+  source: ucimlrepo
+  uci_id: 350
+  cache_dir: data/default_credit
+  path: null
+  target_column: auto
+  test_size: 0.2
+  num_classes: 2
+  minority_class: 1
+  missing_strategy: median
+  numeric_scaling: standard
+
+federated:
+  clients_per_round: 5
+  rounds: 150
+  local_epochs: 3
+  batch_size: 128
+
+partition:
+  type: label_dirichlet
+  num_clients: 20
+  dirichlet_alpha: 0.3
+  min_client_samples: 100
+  validation_fraction: 0.2
+  quantity_skew:
+    type: none
+    sigma: 0.0
+
+model:
+  input_dim: null
+  hidden_dims: [128, 64]
+  dropout: 0.2
+
+optimizer:
+  name: adam
+  lr: 0.001
+  weight_decay: 0.0001
+
+fedprox:
+  mu: 0.01
+
+fedrba:
+  blindspot_temperature: 0.5
+  blindspot_ema: 0.8
+  blindspot_strength: 0.8
+  blindspot_update_scale: 0.5
+  blindspot_scale_min: 0.5
+  blindspot_scale_max: 1.5
+  reliability_tau: 20.0
+  alignment_min: 0.1
+  alignment_power: 1.0
+  server_lr: 1.0
+  use_blindspot_loss: true
+  use_blindspot_server_scaling: true
+  use_classwise_aggregation: true
+  use_update_alignment: true
+
+evaluation:
+  eval_every: 1
+  save_every: 10
+
+runtime:
+  device: auto
+  num_workers: 0
+  pin_memory: false
+

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "runs_expected": 15,
+  "runs_validated": 15,
+  "rounds_per_run": 150,
+  "total_round_records_validated": 2250,
+  "methods": [
+    "fedavg",
+    "fedavg_classweight",
+    "fedprox",
+    "fedrba",
+    "fedrba_classagg"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "windows_recomputed": [
+    10,
+    20,
+    30
+  ],
+  "same_partition_across_methods_within_each_seed": true,
+  "different_partitions_across_seeds": true,
+  "collapse_definition": "minority_recall <= 1e-12",
+  "numeric_tolerance": 1e-10,
+  "package_per_run_max_abs_error": 9.71445146547012e-17,
+  "package_aggregate_max_abs_error": 9.71445146547012e-17,
+  "baseline_main_table_max_abs_error": 4.915412521455664e-11,
+  "partition_audit_max_abs_error": 8.326672684688674e-17,
+  "headline_last20": {
+    "fedrba_minority_recall_mean": 0.3580633006782215,
+    "fedrba_minority_f1_mean": 0.39083841752253995,
+    "fedrba_roc_auc_mean": 0.7379687866284174,
+    "fedrba_pr_auc_mean": 0.48668250329344415,
+    "fedrba_recall_temporal_std_mean": 0.16381860955093552,
+    "classweight_minority_recall_mean": 0.3002260738507912,
+    "classweight_minority_f1_mean": 0.3726677501669749,
+    "fedprox_roc_auc_mean": 0.7439753552249281,
+    "fedprox_pr_auc_mean": 0.4917869391889121
+  }
+}
