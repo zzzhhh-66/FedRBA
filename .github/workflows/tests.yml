@@ -3,6 +3,7 @@ name: tests
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -24,4 +25,3 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Run offline test suite
         run: python -m pytest tests -q
-
