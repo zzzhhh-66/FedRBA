@@ -224,7 +224,4 @@ See [docs/RESULTS.md](docs/RESULTS.md) for the supported claims and limitations.
 
 ## License and citation
 
-No open-source license is attached while the repository remains a private
-double-blind submission artifact. Add the final author list, citation record,
-and chosen license only after the review policy permits deanonymization.
-
+MIT LICENSE
